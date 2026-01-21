@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { useRouter } from 'next/navigation'; 
 import { memoryStyles as styles } from '../utils/styles';
 
-// --- YOUR 9 MEMORIES (Corrected Extensions) ---
+// --- YOUR MEMORIES (All .webp now) ---
 const memories = [
   { 
     id: 1, 
@@ -52,13 +52,13 @@ const memories = [
     id: 8, 
     title: "Memory Eight", 
     description: "Looking forward to more days like this.", 
-    image: "/photos/8.jpg" // .jpg based on upload
+    image: "/photos/8.webp" // <--- Fixed! Now .webp
   },
   { 
     id: 9, 
     title: "Memory Nine", 
     description: "Closing this chapter with a great memory.", 
-    image: "/photos/9.jpg" // .jpg based on upload
+    image: "/photos/9.webp" // <--- Fixed! Now .webp
   },
 ];
 
