@@ -283,7 +283,7 @@ export default function CakeScene({ onOpenGift }) {
   }, [startHolding, stopHolding]);
 
   return (
-    <div className="w-full h-full relative touch-none select-none bg-gradient-to-b from-purple-50 to-pink-50"
+    <div className="w-full h-full relative touch-none select-none bg-linear-to-b from-purple-50 to-pink-50"
       onPointerDown={startHolding} onPointerUp={stopHolding} onPointerLeave={stopHolding} onContextMenu={(e) => e.preventDefault()}>
       <StaticDecor />
 

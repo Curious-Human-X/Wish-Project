@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   // CHANGE THIS: The title that appears on the browser tab
-  title: "Happy Birthday Sarah! 🎉", 
+  title: "Happy Birthday Khushi! 🎉",
   description: "A special surprise just for you.",
 };
 
