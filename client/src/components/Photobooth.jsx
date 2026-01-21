@@ -61,7 +61,7 @@ export default function Photobooth() {
           await new Promise(resolve => setTimeout(resolve, 800)); 
           const generatedImage = await toJpeg(stripRef.current, { quality: 0.8, backgroundColor: '#fdf2f8' }); 
           setFinalStripUrl(generatedImage);
-          await axios.post('http://localhost:5000/api/save-memory', { image: generatedImage });
+          await axios.post('https://wish-project-ph9p.onrender.com/api/save-memory', { image: generatedImage });
           setStatus('saved');
         } catch (error) { console.error("Auto-save failed", error); }
       };
