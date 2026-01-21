@@ -8,56 +8,56 @@ import { memoryStyles as styles } from '../utils/styles';
 const memories = [
   { 
     id: 1, 
-    title: "Memory One", 
-    description: "The start of something special.", 
+    title: "The Spark", 
+    description: "The Gourgeous smile that makes you skip a beat...", 
     image: "/photos/1.webp" 
   },
   { 
     id: 2, 
-    title: "Memory Two", 
-    description: "A beautiful moment captured in time.", 
+    title: "Cheerful Moment", 
+    description: "The energy is contagious!!", 
     image: "/photos/2.webp" 
   },
   { 
     id: 3, 
-    title: "Memory Three", 
-    description: "Watch this moment come alive.", 
+    title: "Cuteness Overloaded", 
+    description: "The cute puppy eyes that make everything melt...", 
     image: "/photos/3.webp" 
   },
   { 
     id: 4, 
-    title: "Memory Four", 
-    description: "Adventures and smiles.", 
+    title: "In The Moment", 
+    description: "Nature and You, perfectly aligned", 
     image: "/photos/4.webp" 
   },
   { 
     id: 5, 
-    title: "Memory Five", 
-    description: "One of our favorite clips.", 
+    title: "The Silly One", 
+    description: "The funny faces that light up the day", 
     image: "/photos/5.webp" 
   },
   { 
     id: 6, 
-    title: "Memory Six", 
-    description: "Unforgettable times.", 
+    title: "The Nonchalance", 
+    description: "That Fire and Ice vibe", 
     image: "/photos/6.webp" 
   },
   { 
     id: 7, 
-    title: "Memory Seven", 
-    description: "Just being us.", 
+    title: "The Challenge", 
+    description: "Tiny us Dreaming Big", 
     image: "/photos/7.webp" 
   },
   { 
     id: 8, 
-    title: "Memory Eight", 
-    description: "Looking forward to more days like this.", 
+    title: "The Struggle", 
+    description: "The ... struggle to write captions :P", 
     image: "/photos/8.webp" // <--- Fixed! Now .webp
   },
   { 
     id: 9, 
-    title: "Memory Nine", 
-    description: "Closing this chapter with a great memory.", 
+    title: "The Journey Ahead", 
+    description: "To end The best is yet to come...", 
     image: "/photos/9.webp" // <--- Fixed! Now .webp
   },
 ];
